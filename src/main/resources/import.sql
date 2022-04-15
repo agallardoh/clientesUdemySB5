@@ -20,8 +20,8 @@ INSERT INTO clientes (region_id, nombre, apellido, email, create_at) VALUES(6,'J
 INSERT INTO clientes (region_id, nombre, apellido, email, create_at) VALUES(3,'James', 'Gosling', 'james.gosling@gmail.com', '2017-08-010');
 
 
-INSERT INTO usuarios (username,password,enabled) VALUES ('agustin','$2a$10$lM8.PcFsBfoNl9swMsgP4.M8xkdl/9UoighzgERuUE/iAf/PHPFs2',1);
-INSERT INTO usuarios (username,password,enabled) VALUES ('aurora','$2a$10$bO8MC3TDQfs4HxtuNZeUyOw8soD8b3j0zm8kkXnB1eIUSMfJbawb2',1);
+INSERT INTO usuarios (username,password,enabled,nombre,apellido,email) VALUES ('agustin','$2a$10$lM8.PcFsBfoNl9swMsgP4.M8xkdl/9UoighzgERuUE/iAf/PHPFs2',1,'Agustin','Gallardo','agustingh1583@gmail.com');
+INSERT INTO usuarios (username,password,enabled,nombre,apellido,email) VALUES ('aurora','$2a$10$bO8MC3TDQfs4HxtuNZeUyOw8soD8b3j0zm8kkXnB1eIUSMfJbawb2',1,'Aurora','Huamani','clenia_1308@gmail.com');
 
 INSERT INTO roles (nombre) VALUES ('ROLE_USER');
 INSERT INTO roles (nombre) VALUES ('ROLE_ADMIN');
